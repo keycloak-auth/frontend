@@ -27,7 +27,7 @@ const handleAuthorizationCode = async () => {
         code_verifier: codeVerifier || '',
       });
 
-      const response = await axios.post('http://localhost:8081/realms/Vue/protocol/openid-connect/token', data, {
+      const response = await axios.post('http://localhost:9001/realms/Vue/protocol/openid-connect/token', data, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },

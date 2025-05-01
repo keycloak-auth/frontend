@@ -44,7 +44,7 @@ const codeChallenge = sha256(codeVerifier).toString(Base64)
   .replace(/=+$/, '');
 
 const getLoginUrl = () => {
-  const baseUrl = 'http://localhost:8081';
+  const baseUrl = 'http://localhost:9001';
   const realm = 'Vue';
   const clientId = 'vuejs';
   const redirectUri = encodeURIComponent(window.location.origin);

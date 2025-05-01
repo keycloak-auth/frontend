@@ -1,6 +1,6 @@
 {
     "realm": "Vue",
-    "auth-server-url": "http://localhost:8081/",
+    "auth-server-url": "http://localhost:9001/",
     "ssl-required": "external",
     "resource": "vuejs",
     "public-client": true,

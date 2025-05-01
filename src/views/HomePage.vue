@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">const logout = () => {
-  const keycloakUrl = 'http://localhost:8081';
+  const keycloakUrl = 'http://localhost:9001';
   const realm = 'Vue';
   const redirectUri = encodeURIComponent(window.location.origin + '/login');
   const idTokenHint = localStorage.getItem('id_token');
