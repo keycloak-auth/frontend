@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules
+
+# Production build
+/dist
+/build
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system files
+.DS_Store
+
+# Optional: ignore test coverage output
+/coverage
+
+# Optional: ignore local test results
+/test-results
+
+# Optional: ignore lock files (uncomment one if you prefer not to commit lock files)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
